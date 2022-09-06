@@ -20,6 +20,8 @@ My journey to learn Vim is written here. Everyhthing here I write under VSCode V
     }
     ```
 
+    This will allow me to use `ctrl+c` and `ctrl+v` as copy and paste respectively. The downside is, all Vim commands that use `ctrl` will not work as expected.
+
 1. Use `a` instead of `i`
 
     Instead of using `i` to enter insert mode, use `a` is better for beginner because `a` will place the cursor after the location of the selected characted, whereas `i` place it before the caracter. See [this](https://stackoverflow.com/questions/41657784/inserting-at-the-end-of-a-line-in-vim) Stack Overflow question for more details and motives. But, master both keys are better.
